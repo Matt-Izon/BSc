@@ -19,7 +19,7 @@
 
     if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"]) && isset($_POST["submit"])) {
         submitContactForm();
-        header('Location: /html/contact.php');
+        header('Location: /public/contact.php');
                
     }
 ?>  
