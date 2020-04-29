@@ -1,0 +1,1 @@
+<?php    $root = $_SERVER['DOCUMENT_ROOT'];    $pageTitle = $_GET["name"];    require_once($root. 'private/Controllers/PoliciesController.php');    include_once($root. 'public/header.php');?>					<h1 id="welcome"><?php echo $pageTitle; ?></h1>				<div class="block">	<?php echo displayPolicy($pageTitle); ?></div><?php include_once($root. 'public/footer.php'); ?>

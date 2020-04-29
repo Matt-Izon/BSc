@@ -26,19 +26,19 @@
 
 		<nav class="deskNav">
 			<ul>
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="html/events.html">EVENTS</a></li>
-				<li><a href="html/club.html">CLUB</a></li>
-				<li><a href="html/contact.html">CONTACT</a></li>
+				<li><a href="/index.php">HOME</a></li>
+				<li><a href="/public/events.php">EVENTS</a></li>
+				<li><a href="/public/club.php">CLUB</a></li>
+				<li><a href="/public/contact.php">CONTACT</a></li>
 			</ul>
 		</nav>
 
 		<nav class="mobNav" >
 			<ul>
-				<li><a href="index.html"><div data-aos="zoom-in" class="pentagon" id="home"><h1>HOME</h1></div></a></li>
-				<li><a href="html/events.html"><div class="pentagon" id="events"><h1>EVENTS</h1></div></a></li>
-				<li><a href="html/club.html"><div class="pentagon" id="club"><h1>CLUB</h1></div></a></li>
-				<li><a href="html/contact.html"><div class="pentagon" id="contact"><h1>CONTACT</h1></div></a></li>
+				<li><a href="/index.php"><div data-aos="zoom-in" class="pentagon" id="home"><h1>HOME</h1></div></a></li>
+				<li><a href="/public/events.php"><div class="pentagon" id="events"><h1>EVENTS</h1></div></a></li>
+				<li><a href="/public/club.php"><div class="pentagon" id="club"><h1>CLUB</h1></div></a></li>
+				<li><a href="/public/contact.php"><div class="pentagon" id="contact"><h1>CONTACT</h1></div></a></li>
 			</ul>
 
 			<div id="social">
@@ -52,3 +52,15 @@
 		</nav>
 
 	</head>
+
+	<div class="background"></div>
+
+	<body>
+		
+		<div id="logoContainer1"><img id="logo1" src="/images/LFC.svg" alt="Lossiemouth football club logo"></div>
+		
+		<a href="#top" id="arrowBlock"><div id="arrowUp"></div></a>
+
+		<section class="main-container">
+
+			<section class="content">
