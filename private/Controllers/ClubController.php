@@ -43,7 +43,7 @@
 						$html .= '<div class="textSep"></div>';
 			        $html .= '</div>';
                     $html .= '<div class="player-bio">';
-						$html .= '<p class="bioText">'. $playerDetails->Bio. '</p>';
+						$html .= '<div class="bioText">'. $playerDetails->Bio. '</div>';
 						$html .= '<div class="show-more">Read Bio</div>';
                         $html .= '<div class="playerSponsor">';
                             $html .= '<h5 class="psTitle">Sponsors:</h5>';
